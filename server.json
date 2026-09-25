@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/esa-gaia",
   "title": "Esa Gaia",
   "description": "ESA Gaia MCP — the Gaia star catalogue, queried over the ESA TAP service.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/esa-gaia",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-esa-gaia",
