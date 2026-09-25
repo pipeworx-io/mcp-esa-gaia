@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-esa-gaia",
+  "version": "0.1.0",
+  "description": "ESA Gaia MCP — the Gaia star catalogue, queried over the ESA TAP service.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-esa-gaia": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "esa-gaia"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-esa-gaia.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-fded3d50152b34d9ae5a8fcfc044cc09335da5c79adc01df283cc07f9e39f27e",
+    "sourceCommit": "70cd53748fc9f9a43ed3681d751bfa96e701efd2"
+  }
+}
