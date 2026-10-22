@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-esa-gaia",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "ESA Gaia MCP — the Gaia star catalogue, queried over the ESA TAP service.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-dd3bcf28b28fe62c174f1d3a0be1c4173779b8e4a7e0c03f99b2301ab03ee93d",
-    "sourceCommit": "4fa4c64448be06f4a2ee4cee19f756f3558a7cad"
+    "sourceHash": "v1-1557c150d63a1f76ef5eb31cd9791f5348aa32714440ba965c168e51bac180b0",
+    "sourceCommit": "712a5e0171ea24483214329d0cd7efdfd9b80352"
   }
 }
